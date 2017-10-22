@@ -101,3 +101,9 @@ Fork the repo, make the change, submit a PR.
 ```
 $ rubocop --rails
 ```
+
+## Deploying
+
+```
+$ git push heroku master
+```

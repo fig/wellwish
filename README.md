@@ -94,8 +94,18 @@ $ bundle exec rails db:create
 
 ## Run the server
 
+To best replicate the Heroku environment, install the Heroku toolbelt and login. Create a `.env` file in the root directory:
+
 ```
-$ bundle exec rails server
+RACK_ENV=development
+PORT=3000
+
+```
+
+Then run the server:
+
+```
+$ heroku local
 ```
 
 

@@ -1,5 +1,6 @@
 # WellWish
 
+
 ## About
 
 WellWish is a Ruby on Rails web application designed to assist volunteers find
@@ -7,6 +8,9 @@ local, convenient, and skill-relevant contributions.
 
 
 ## Outline
+
+
+### Visitors
 
 - Visitors can view wishes
 - Visitors can register to become users
@@ -16,10 +20,12 @@ local, convenient, and skill-relevant contributions.
   - Confirmed Email address
   - Password
 
+
+### Users
+
 - Users have a public profile with:
   - Profile picture
   - Score
-
 - Users can create wishes
 - Users can edit their own wishes
 - Users can request permission to edit other users' wishes
@@ -44,6 +50,8 @@ local, convenient, and skill-relevant contributions.
       - The status is updated to 'open'
       - The user claiming to have completed the wish is sent an email advising
         why it hasn't been updated to completed.
+
+### Wishes
 
 - Wishes contain:
   - Title

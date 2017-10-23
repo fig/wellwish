@@ -93,6 +93,13 @@ $ bundle exec rails db:create
 ```
 
 
+## Testing
+
+```
+$ bundle exec rspec
+```
+
+
 ## Run the server
 
 To best replicate the Heroku environment, install the Heroku toolbelt and login. Create a `.env` file in the root directory:

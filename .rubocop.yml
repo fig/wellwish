@@ -4,6 +4,13 @@ inherit_gem:
 
 AllCops:
   TargetRubyVersion: 2.4
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
 
 Metrics/LineLength:
   Max: 80

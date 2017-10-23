@@ -51,6 +51,7 @@ local, convenient, and skill-relevant contributions.
       - The user claiming to have completed the wish is sent an email advising
         why it hasn't been updated to completed.
 
+
 ### Wishes
 
 - Wishes contain:
@@ -99,7 +100,6 @@ To best replicate the Heroku environment, install the Heroku toolbelt and login.
 ```
 RACK_ENV=development
 PORT=3000
-
 ```
 
 Then run the server:
@@ -119,6 +119,7 @@ Fork the repo, make the change, submit a PR.
 ```
 $ rubocop --rails
 ```
+
 
 ## Deploying
 

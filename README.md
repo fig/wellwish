@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/WellWish/wellwish.svg?branch=master)](https://travis-ci.org/WellWish/wellwish)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/2feb9ab174274e5b2278/test_coverage)](https://codeclimate.com/github/WellWish/wellwish/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2feb9ab174274e5b2278/maintainability)](https://codeclimate.com/github/WellWish/wellwish/maintainability)
+
+
 # WellWish
 
 

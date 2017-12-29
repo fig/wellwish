@@ -11,17 +11,18 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :name %>
-    <%= form.text_field :name, id: :mailing_list_contact_name %>
+    <%= form.text_field :name, id: :mailing_list_contact_name, class: "form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :email %>
-    <%= form.text_field :email, id: :mailing_list_contact_email %>
+    <%= form.text_field :email, id: :mailing_list_contact_email, class: "form-control" %>
+    <small class="form-text text-muted">We won't share your email with anyone else.</small>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit "Submit", class: "btn btn-primary" %>
   </div>
 <% end %>

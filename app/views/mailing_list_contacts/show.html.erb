@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @mailing_list_contact.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @mailing_list_contact.email %>
+</p>
+
+<%= link_to 'Edit', edit_mailing_list_contact_path(@mailing_list_contact) %> |
+<%= link_to 'Back', mailing_list_contacts_path %>

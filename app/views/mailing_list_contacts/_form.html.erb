@@ -1,0 +1,27 @@
+<%= form_with(model: mailing_list_contact, local: true) do |form| %>
+  <% if mailing_list_contact.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(mailing_list_contact.errors.count, "error") %> prohibited this mailing_list_contact from being saved:</h2>
+
+      <ul>
+      <% mailing_list_contact.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :mailing_list_contact_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email, id: :mailing_list_contact_email %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,2 @@
+module MailingListContactsHelper
+end

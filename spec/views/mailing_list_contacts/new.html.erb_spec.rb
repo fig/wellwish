@@ -1,21 +1,41 @@
-require 'rails_helper'
+# frozen_string_literal: true
 
-RSpec.describe "mailing_list_contacts/new", type: :view do
+require "rails_helper"
+
+describe "mailing_list_contacts/new" do
   before(:each) do
-    assign(:mailing_list_contact, MailingListContact.new(
-      :name => "MyString",
-      :email => "MyString"
-    ))
+    contact = MailingListContact.new(name: "Sheldon J. Johnson",
+                                      email: "sheldon@wellwish.org")
+
+    assign :mailing_list_contact, contact
   end
 
   it "renders new mailing_list_contact form" do
     render
 
-    assert_select "form[action=?][method=?]", mailing_list_contacts_path, "post" do
+    assert_select("form[action=?][method=?]",
+                  mailing_list_contacts_path,
+                  "post") do
+                    assert_select "input[name=?]", "mailing_list_contact[name]"
+                    assert_select "input[name=?]", "mailing_list_contact[email]"
+                  end
+  end
 
-      assert_select "input[name=?]", "mailing_list_contact[name]"
+  it "includes a logo" do
+    render
 
-      assert_select "input[name=?]", "mailing_list_contact[email]"
-    end
+    expect(rendered).to match(/\<img src=.*logo.*\/\>/)
+  end
+
+  it "includes copy" do
+    render
+
+    expect(rendered).to include "todo"
+  end
+
+  it "includes a link to the github site" do
+    render
+
+    expect(rendered).to include "https://github.com/WellWish/wellwish"
   end
 end

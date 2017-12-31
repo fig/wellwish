@@ -3,7 +3,6 @@ inherit_gem:
     - config/rails.yml
 
 AllCops:
-  TargetRubyVersion: 2.4
   Include:
     - '**/Rakefile'
     - '**/config.ru'

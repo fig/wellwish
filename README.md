@@ -1,3 +1,4 @@
+
 [![Build Status](https://travis-ci.org/WellWish/wellwish.svg?branch=master)](https://travis-ci.org/WellWish/wellwish)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/2feb9ab174274e5b2278/test_coverage)](https://codeclimate.com/github/WellWish/wellwish/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2feb9ab174274e5b2278/maintainability)](https://codeclimate.com/github/WellWish/wellwish/maintainability)
@@ -35,8 +36,8 @@ Somebody who knows about that stuff ought to fix them."
 
 #### The volunteer
 
-Search tasks based on your location, your skills, popularity etc. Join the
-conversation, and if you can, make the change. Volunteers simply go out and
+Search tasks based on your location, required skills or tools, score etc.  Join
+the conversation, and if you can, make the change. Volunteers simply go out and
 complete the listed task. Click 'completed' and provide your evidence (usually
 a photo). We'll validate your contribution and make sure it is recorded and
 celebrated. Volunteers can be individuals or organisations.

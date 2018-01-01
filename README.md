@@ -8,8 +8,38 @@
 
 ## About
 
-WellWish is a Ruby on Rails web application designed to assist volunteers find
-local, convenient, and skill-relevant contributions.
+There's a problem with volunteering, WellWish sets out to solve that problem.
+
+
+### The problem
+
+Volunteering is hard. We think that everyone wants to pitch-in, but it's often not convenient, or relavent to you. An overseas placement, or heavily organised project is a big commitment. People with specialised skills or tools could make a huge difference, but it's hard to find a way to give back that makes the most of their abilities.
+
+
+### The solution
+
+WellWish is a todo list for humanity. It relies on two specific types of contributor:
+
+
+#### The highlighter
+
+Have you ever had a thought that started with "Someone really ought to..."? It
+belongs on WellWish. We're looking for self-contained, atomic,
+location-specific micro tasks that will make the word a better place. Just
+posting your thought, voting on somebody elses, or joining the conversation
+does so much.
+
+E.g "Some of the video games at the local children's hospital aren't working.
+Somebody who knows about that stuff ought to fix them."
+
+
+#### The volunteer
+
+Search tasks based on your location, your skills, popularity etc. Join the
+conversation, and if you can, make the change. Volunteers simply go out and
+complete the listed task. Click 'completed' and provide your evidence (usually
+a photo). We'll validate your contribution and make sure it is recorded and
+celebrated. Volunteers can be individuals or organisations.
 
 
 ## Outline

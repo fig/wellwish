@@ -36,6 +36,6 @@ describe "mailing_list_contacts/new" do
   it "includes a link to the github site" do
     render
 
-    expect(rendered).to include "https://github.com/WellWish/wellwish"
+    expect(rendered).to include "https://github.com/WellWish"
   end
 end

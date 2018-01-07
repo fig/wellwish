@@ -37,7 +37,6 @@ gem "jbuilder", "~> 2.5"
 gem "bootstrap", "~> 4.0.0.beta3"
 gem "jquery-rails"
 gem "devise"
-gem "factory_bot"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger
@@ -47,6 +46,7 @@ group :development, :test do
   gem "capybara", "~> 2.13"
   gem "selenium-webdriver"
   gem "rspec-rails", "~> 3.6"
+  gem "factory_bot_rails"
 end
 
 group :test do

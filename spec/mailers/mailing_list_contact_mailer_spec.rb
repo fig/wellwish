@@ -5,7 +5,7 @@ require "rails_helper"
 RSpec.describe MailingListContactMailer, type: :mailer do
   describe "welcome" do
     let(:mailing_list_contact) { create(:mailing_list_contact) }
-    let(:mail) { MaillingListContactMailer.welcome(mailing_list_contact) }
+    let(:mail) { MailingListContactMailer.welcome(mailing_list_contact) }
 
     it "renders the headers" do
       expect(mail.subject).to include("Welcome")

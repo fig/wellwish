@@ -3,6 +3,6 @@
 FactoryBot.define do
   factory :mailing_list_contact do
     name "Sheldon J. Johnson"
-    name "sheldon@wellwish.org"
+    email "sheldon@wellwish.org"
   end
 end

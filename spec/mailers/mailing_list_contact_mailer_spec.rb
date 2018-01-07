@@ -9,8 +9,8 @@ RSpec.describe MailingListContactMailer, type: :mailer do
 
     it "renders the headers" do
       expect(mail.subject).to include("Welcome")
-      expect(mail.to).to eq(mailing_list_contact.email)
-      expect(mail.from).to eq("notifications@wellwish.org")
+      expect(mail.to).to eq([mailing_list_contact.email])
+      expect(mail.from).to eq(["notifications@wellwish.org"])
     end
 
     it "renders the body" do
